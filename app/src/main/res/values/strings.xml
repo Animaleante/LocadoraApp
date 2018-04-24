@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">LocadoraApp</string>
+    <string name="tela_atualizar_filme">Atualizar Filme</string>
+    <string name="tela_cadastrar_filme">Cadastral Filme</string>
+    <string name="tela_cadastro_usuario_login">Digite o Login</string>
+    <string name="tela_cadastro_usuario_pswd">Digite a senha</string>
+    <string name="tela_cadastro_usuario_pswd_confirm">Confirme a senha</string>
+    <string name="tela_cadastro_usuario_salvar">Salvar</string>
+    <string name="tela_login_usuario_login">Digite o Login</string>
+    <string name="tela_login_usuario_pswd">Digite a senha</string>
+    <string name="tela_login_usuario_enter">Entrar</string>
+    <string name="tela_login_usuario_register">Registrar</string>
+    <string name="tela_menu_logout">Sair</string>
+    <string name="tela_menu_cadastrar_filme">Cadastral Filme</string>
+    <string name="tela_menu_listar_filmes">Listar Filmes</string>
+    <string name="tela_menu_listas_filmes_proprios">Listar Meus Filmes</string>
+    <array name="filme_generos">
+        <item>Ação</item>
+    </array>
 </resources>

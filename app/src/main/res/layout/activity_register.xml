@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUsuarioCadastroLogin"
+        android:hint="@string/tela_cadastro_usuario_login"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUsuarioCadastroPswd"
+        android:hint="@string/tela_cadastro_usuario_pswd"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUsuarioCadastroPswdConfirm"
+        android:hint="@string/tela_cadastro_usuario_pswd_confirm"
+        android:inputType="textPassword"/>
+    <Button
+        android:onClick="gravarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tela_cadastro_usuario_salvar"/>
+
+</LinearLayout>

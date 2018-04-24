@@ -26,6 +26,7 @@
             android:text="Testando"/>
 
         <TextView
+            android:onClick="logoff"
             android:textSize="20sp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
@@ -49,16 +50,19 @@
         android:columnCount="1">
 
         <Button
+            android:onClick="carregarCadastroFilme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tela_menu_cadastrar_filme"/>
 
         <Button
+            android:onClick="carregarListarFilmes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tela_menu_listar_filmes"/>
 
         <Button
+            android:onClick="carregarListarFilmesProprios"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tela_menu_listas_filmes_proprios"/>

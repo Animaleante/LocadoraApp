@@ -66,7 +66,7 @@ public class AtualizarFilmeActivity extends Activity {
         btnRemover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+                AlertDialog.Builder builder = new AlertDialog.Builder(AtualizarFilmeActivity.this);
                 builder.setTitle(R.string.dialog_title);
                 builder.setMessage(R.string.dialog_message);
                 builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {

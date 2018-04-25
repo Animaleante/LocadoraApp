@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
         if(loggedUser == null)
             loggedUser = new UsuarioDAO(this).carregarUsuario(id);
 
-        String welcomeMessage = R.string.tela_menu_welcome + loggedUser.getLogin();
+        String welcomeMessage = getResources().getString(R.string.tela_menu_welcome) + " " + loggedUser.getLogin();
         welcomeLoggedUser.setText(welcomeMessage);
     }
 

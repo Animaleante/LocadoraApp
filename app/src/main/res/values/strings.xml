@@ -21,6 +21,7 @@
     <string name="dialog_message">Tem certeza que deseja remover este livro do sistema?</string>
     <string name="cancel">Cancelar</string>
     <string name="dialog_title">Remover Livro</string>
+    <string name="tela_menu_welcome">Bem-vindo</string>
 
     <array name="filme_generos">
         <item>Ação</item>

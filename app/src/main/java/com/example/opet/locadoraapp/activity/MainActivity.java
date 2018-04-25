@@ -27,11 +27,13 @@ public class MainActivity extends Activity {
         if(loggedUser == null)
             loggedUser = new UsuarioDAO(this).carregarUsuario(id);
 
-        welcomeLoggedUser.setText("Bem-vindo " +loggedUser.getLogin());
+        String welcomeMessage = R.string.tela_menu_welcome + loggedUser.getLogin();
+        welcomeLoggedUser.setText(welcomeMessage);
     }
 
     public void logoff(View v) {
         loggedUser = null;
+        welcomeLoggedUser.setText("");
 
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);

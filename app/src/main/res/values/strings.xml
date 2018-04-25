@@ -14,7 +14,20 @@
     <string name="tela_menu_cadastrar_filme">Cadastral Filme</string>
     <string name="tela_menu_listar_filmes">Listar Filmes</string>
     <string name="tela_menu_listas_filmes_proprios">Listar Meus Filmes</string>
+    <string name="tela_cadastro_filme_salvar">Salvar</string>
+    <string name="tela_cadastro_filme_remover">Remover</string>
+    <string name="tela_cadastro_filme_nome">Nome do filme</string>
+
+    <string name="dialog_message">Tem certeza que deseja remover este livro do sistema?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialog_title">Remover Livro</string>
+
     <array name="filme_generos">
         <item>Ação</item>
+        <item>Suspense</item>
+        <item>Comédia</item>
+        <item>Drama</item>
+        <item>Terror</item>
+        <item>Documentário</item>
     </array>
 </resources>

@@ -6,17 +6,23 @@
         android:id="@+id/editNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome do filme"/>
+        android:hint="@string/tela_cadastro_filme_nome"/>
     <Spinner
         android:id="@+id/editGenero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/filme_generos"/>
+
     <Button
         android:id="@+id/btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:text="Salvar"/>
-
+        android:text="@string/tela_cadastro_filme_salvar"/>
+    <Button
+        android:id="@+id/btnRemover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/tela_cadastro_filme_remover"/>
 </merge>
